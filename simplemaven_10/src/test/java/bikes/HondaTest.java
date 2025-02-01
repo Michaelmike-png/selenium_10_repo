@@ -12,7 +12,7 @@ public class HondaTest {
 	@Test
 	public void lunchhonda() {
 		
-		WebDriver driver=new 
+		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		

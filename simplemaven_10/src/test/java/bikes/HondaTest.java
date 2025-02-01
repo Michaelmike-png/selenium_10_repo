@@ -17,6 +17,7 @@ public class HondaTest {
 		
 		driver.get("https://www.heromotocorp.com/");
 		Reporter.log("honda is launched",true);
+		Reporter.log("modified launched",true);
 
 }
 }

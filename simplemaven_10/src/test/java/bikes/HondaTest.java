@@ -14,6 +14,7 @@ public class HondaTest {
 		
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
+		driver.manage().window().minimize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		
 		driver.get("https://www.heromotocorp.com/");
